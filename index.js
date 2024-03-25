@@ -1,6 +1,6 @@
 #! usr/bin/env/ node
 import inquirer from "inquirer";
-const randomNumber = Math.floor(Math.random());
+const randomNumber = Math.floor(Math.random() * 10 + 5);
 const answer = await inquirer.prompt([
     {
         name: "userGuessNumber",
